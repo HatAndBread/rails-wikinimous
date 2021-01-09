@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+li {
+  list-style: none;
+}
+
+textarea {
+  width: 400px;
+  height: 400px;
+}

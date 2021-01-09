@@ -1,0 +1,9 @@
+
+<ul>
+  <% @articles.each do |article|
+    sampler = article.content[0..100] + '...'
+  %>
+  <li><%= link_to  article.title, article_path(article) %></li>
+  <p><%= sampler %></p>
+  <% end %>
+</ul>
